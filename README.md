@@ -1,2 +1,2 @@
 # henrywemmie.github.io
-source code for my socail studies project
+source code for my science and socail studies project
