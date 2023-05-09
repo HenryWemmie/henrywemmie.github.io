@@ -1,10 +1,6 @@
-const options = {
-  decimalPlaces: 5,
-  duration: 3600,
-};
-let demo = new CountUp('myTargetElement', 50, options);
-if (!demo.error) {
-  demo.start();
-} else {
-  console.error(demo.error);
+import { CountUp } from './js/countUp.min.js';
+
+window.onload = function() {
+  var countUp = new CountUp('target', 2000);
+  countUp.start();
 }
