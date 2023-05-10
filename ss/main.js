@@ -7,4 +7,3 @@ var numAnim = new countUp.CountUp('target', 0.73, {useEasing: false, decimalPlac
     console.error(numAnim.error);
   }
 }
-useEasing: false,
