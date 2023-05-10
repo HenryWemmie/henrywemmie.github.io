@@ -1,8 +1,10 @@
-window.onload = function() {
-  var numAnim = new countUp.CountUp('target', 2000);
-  if (!numAnim.error) {
-    numAnim.start();
-  } else {
-    console.error(numAnim.error);
-  }
+const options = {
+  decimalPlaces: 5,
+  duration: 3600,
+};
+let demo = new CountUp('myTargetElement', 0.73, options);
+if (!demo.error) {
+  demo.start();
+} else {
+  console.error(demo.error);
 }
