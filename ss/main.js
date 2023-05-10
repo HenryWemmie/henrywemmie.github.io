@@ -1,5 +1,5 @@
 window.onload = function() {
-  var numAnim = new countUp.CountUp('target',useEasing: false ,2000);
+  var numAnim = new countUp.CountUp('target', 2000, { decimalPlaces: 5, duration: 3600 });
   if (!numAnim.error) {
     numAnim.start();
   } else {
