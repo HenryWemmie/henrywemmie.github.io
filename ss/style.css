@@ -1,3 +1,25 @@
+.hr3 {
+  color:LawnGreen;
+}
+
+.hr4 {
+  color: Indigo;
+}
+
+.hr5 {
+  color:FireBrick;
+}
+
+
+
+
+
+
+
+
+
+
+
 body {
 	background: linear-gradient(-45deg, #FFFF00,  #ffd700,  #daa520);
 	background-size: 400% 400%;
