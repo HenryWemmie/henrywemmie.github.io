@@ -7,12 +7,18 @@
     <title>Games</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-<script src="./countup.js"></script>
-<script src="./main.js"></script>
-
-<h3>Thanks for checking out this whole website! Now that you've finished learning all about energy, why don't you play these energy-related gaems?
+  </head>
+  <body>
+  <center>
+    <main>
+        <h3>Thanks for checking out this whole website! Now that you've finished learning all about energy, why don't you play these energy-related games?
     Elliott made the games here by the way. Anyway, enjoy!</h3>
     
 <a href="https://scratch.mit.edu/projects/849402375/">Energy Clicker</a>
 
-<a href="https://dashboard.blooket.com/set/645a82d3628bf88e8390ce24">Energy Blooket</a>
+<a href="https://dashboard.blooket.com/set/645a82d3628bf88e8390ce24">Energy Blooket</a> 
+    </main>
+    </center>
+	<script src="index.js"></script>
+  </body>
+</html>
